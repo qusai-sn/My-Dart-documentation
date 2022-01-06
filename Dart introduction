@@ -1,0 +1,116 @@
+// dart decumentaion 2022 , by qusai oamr :
+
+void main() {  // this is the main code class 
+  
+  // dart data types and variables intro :
+  
+  var name='qusai' ;   // this is a String 
+  
+  int age =  22 ;      // this is an integer
+  
+  double pie= 3.14 ;  // this is a double or float
+  
+  bool pool = true ;  // this is a boolian 
+  
+  var lst=[1,2,3,4,5] ;  // this is a list 
+  
+  var my_map={ 'qusai':'99' , 'qusai2':'100'};  // this is a map or dictionary
+  
+  String name_2=' my name is slim shady' ; // you have to end every statement with semi-coulimn
+  
+  var multi1 ;  // if you dont assign a value ... the value will be null 
+  
+  final f1='this is a final variable ' ; 
+  
+  const a =1000 ;
+  
+  var f = const[1,2,3];
+  
+  //   var a = 99 ;       >>>> a constant value that cannot be changed after its creation .
+  
+  //   var f1 = 'qusai' ; >>>> you can't declear the final var more than once .
+ 
+  print(age);
+    
+  // the var key word is used to declear the varilble
+  // you can spiecify the variabl type by write ( int . Strnig . double . bool )
+  // this is a comment 
+  /* this is a multi line comment 
+   *  i can write in tow lines */
+  
+  
+  
+  // dart operators : 
+  
+  int var1 = 10 ;  
+  int var2 = 20 ;
+  // basic math operators :
+  print(var1 + var2); 
+  print(var1 - var2);
+  print(var1 * var2);
+  print(var2 / var1);
+  print(var2 ~/ var1);
+  print(var1 % var2);
+  
+  
+  // increment and decrement operators : 
+  
+  print(var1++); //increment
+  print(var1--); //decrement
+  print(++var1); //returns the actual value before increment.
+  print(--var1); //returns the actual value before decrement.
+  
+ 
+  // Assignment Operator : 
+  
+  /* Assignment operators are used to assigning value to the variables.
+  We can also use it combined with the arithmetic operators. */
+  
+  var c = 99; // It assigns the right to the left.
+  
+  var v = 100;
+    
+  c+= v; // it's the same as c=c+v
+  c-= v; // it's the same as c=c-v
+  c*= v; // it's the same as c=c*v
+  c~/= v; // it's the same as c=c~/v
+  c%= v; // it's the same as c=c%v
+  
+  print(c);
+  
+  
+  // Relational Operator : 
+  
+  bool b = true ;
+    
+  b = c > v;  
+  b = c < v;
+  b = c >= v;
+  b = c <= v;
+  b = c != v;
+  b = c == v;
+  
+  // Type Test Operators : 
+  
+  var number = 10;
+  var name2 = 'qusai';
+    
+  print( number is int ); // print true if number is int
+  print( name2 is! String); // print true is name is String 
+  
+  
+  // Logical Ooperators :
+  
+  bool t = true  ;
+  bool f2 = false ;
+    
+  print( t && f2 ); // and 
+  print( t || f2 ); // or
+  print(  ! f2 );   // not
+  
+  
+  
+    
+  
+  
+}
